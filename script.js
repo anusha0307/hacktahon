@@ -1,7 +1,6 @@
 // creating input
-var input=document.createElement("input");
+let input=document.createElement("input");
 input.setAttribute("type","search");
-input.setAttribute("name"," ");
 input.setAttribute("id","search");
 input.setAttribute("placeholder","Enter the Brand,type of product");
 document.body.append(input);
